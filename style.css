@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Baloo+2:wght@400;500;700&display=swap');
+
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Baloo 2', cursive; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+    background-color: #cdeeff;
+}
+
+header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo a{
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 700;
+    transition: all 0.4s linear;
+    color: #3a3b3d;
+    letter-spacing: 6px;
+    font-family: 'Amatic SC', cursive;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    padding: 20px 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.4s linear;
+    color: #3a3b3d;
+}
+
+ul li a:hover{
+    color: #00a8ff;
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+
+.content-img img{
+    width: 50rem;
+}
+
+.content-text{
+    padding-right: 9rem;
+    text-align:center;
+}
+
+.content-text h2{
+    font-size: 60px;
+    color: #3a3b3d;
+}
+
+.content-text h1{
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: #00a8ff;
+}
+
+.content-text p{
+    color: #3a3b3d;
+    font-weight: 500;
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.content-text a{
+    text-decoration: none;
+    color: #00a8ff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.4s linear;
+}
+
+.content-text a:hover{
+    color: #3a3b3d;
+}
